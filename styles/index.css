@@ -1,0 +1,12 @@
+h1{
+    background: linear-gradient(135deg, #222F3D, #cc3b2e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Black Ops One', system-ui, Arial; 
+    
+}
+body {
+    background: linear-gradient(to right, rgb(188, 140, 140), rgb(107, 107, 176));
+}
+
+    

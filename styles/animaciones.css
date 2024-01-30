@@ -1,0 +1,59 @@
+h4{
+    text-align: left;
+    box-shadow:   /*Efecto de somnra*/
+  13.4px 15.5px 5.3px rgba(0, 0, 0, 0.129),
+  45.1px 52px 17.9px rgba(0, 0, 0, 0.218),
+  202px 233px 80px rgba(0, 0, 0, 0.26)
+;
+}
+
+.cajita{
+    margin:0 25px;  
+    border: 2px solid black;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+@keyframes ejemplo{
+    to{
+        left:-100px;
+        background-color: black;
+    }
+    from{
+        left: 300px;
+        background-color: red;
+    }
+}
+
+.linear{
+    animation: ejemplo 2s linear infinite alternate;
+}
+.ease{
+    animation: ejemplo 2s ease infinite alternate;
+}
+.ease-in{
+    animation: ejemplo 2s ease-in infinite alternate;
+}
+.ease-out{
+    animation: ejemplo 2s ease-out infinite alternate;
+}
+.ease-in-out{
+    animation: ejemplo2 2s ease-in-out infinite alternate;
+}
+
+@keyframes ejemplo2 {
+    to {
+        transform: rotate(360deg);
+        left: 100px;
+        top: 100px;
+        background-color: black;
+    }
+    from {
+        left: 300px;
+        top: 0;
+        background-color: red;
+    }
+}
+
+

@@ -1,0 +1,96 @@
+.grid-cantainer4{
+    display: grid;
+    grid-template-columns: auto auto auto auto; /*de esta forma los 4 hijos quedan alineados*/
+    background-color: grey;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+.grid-cantainer4 > div{
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
+}
+.grid-cantainer3{
+    display: grid;
+    grid-template-columns: auto auto auto auto; /*de esta forma los 4 hijos quedan alineados*/
+    background-color: grey;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+.grid-cantainer3 > div{
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
+}
+.grid-cantainer5{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto; /*de esta forma los 4 hijos quedan alineados*/
+    background-color: grey;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+.grid-cantainer5 > div{
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
+.justify{
+    text-align: justify;
+}
+h5{
+    text-align: center;
+}
+h4{
+    margin: 20px 0 10px 0;
+    font-size: 24px;
+}
+
+.overline{
+    text-decoration: overline;
+
+}
+.line-through{
+    text-decoration:line-through
+
+}
+.underline{
+    text-decoration: underline
+
+}
+.overline-underline{
+    text-decoration: overline
+
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.lowercase{
+    text-transform: lowercase;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+.serif{
+    font-family: serif;
+}
+.sans-serif{
+    font-family: sans-serif;
+}
+.monospace{
+    font-family: monospace;
+}
+.cursive{
+    font-family: cursive;
+}
+.fantasy{
+    font-family: fantasy;
+}

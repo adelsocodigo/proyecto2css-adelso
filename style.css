@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    width: 100%;
+    background: rgb(113, 99, 99);
+    overflow: auto;
+}
+
+.navbar a{
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: aquamarine;
+}
+.active{
+    background-color: aquamarine;
+}
+.responsive{
+    display: none;
+}
+i{
+    padding: 0 5px;   /*esto dara separacion entre el icono y el texto*/
+}
+@media (max-width:600px){
+    .responsive{
+        display: block;
+        float: right;
+        padding: 12px;
+    }
+    a{
+        display: none;
+    }
+}
+.introduccion{
+    text-align: center;
+    margin: 0 15%;
+   
+}
